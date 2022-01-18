@@ -48,3 +48,55 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+
+    .div {
+        height: 50px;
+    }
+
+    .menu {
+        width: auto;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 25px;
+        }
+    }
+
+    .toggle {
+        margin-left: 20px;
+    }
+    
+    .menu_mob {
+        position: fixed;
+        z-index: 9999;
+        overflow: hidden;
+        top: 50px;
+        left: 0;
+        padding-left: 24px;
+        width: 100%;
+        height: calc(100% - 50px);
+        background: #cfd2bb;
+        padding-bottom: 107px;
+
+        display: flex;
+        align-items: flex-end;
+
+        a {
+            text-decoration: none;
+        }
+
+        a.active {
+            border-bottom: 4px solid #373737;
+        }
+    }
+}

@@ -62,7 +62,9 @@ export const Team = () => {
             <div className={styles.title}>CORE TEAM</div>
             <div className={styles.container}>
                 {teams.map((team, index) => (
-                    <TeamCard obj={team} key={index} />
+                    <div className={styles.card} key={index} >
+                        <TeamCard obj={team} />
+                    </div>
                 ))}
             </div>
         </div>

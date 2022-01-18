@@ -5,7 +5,7 @@ import { getImg } from '../../utils/Helper';
 
 const Icons = () => {
     return (
-        <div className={styles.body}>
+        <div className={styles.div}>
             <a href="https://google.com" target="_blank" rel="noreferrer"><img src={getImg('icon/discord.png')} alt="icon" /></a>
             <a href="https://google.com" target="_blank" rel="noreferrer"><img src={getImg('icon/telegram.png')} alt="icon" /></a>
             <a href="https://google.com" target="_blank" rel="noreferrer"><img src={getImg('icon/twitter.png')} alt="icon" /></a>

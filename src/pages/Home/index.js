@@ -4,7 +4,6 @@ import styles from './Home.module.scss';
 import Header from './Header';
 import Intro from './Intro';
 import About from './About';
-import Description from './Description';
 import Heroes from './Heroes'
 import Media from './Media';
 import Team from './Team';
@@ -18,7 +17,6 @@ const Home = () => {
             <Header />
             <Intro />
             <About />
-            <Description />
             <Heroes />
             <Media />
             <Team />

@@ -9,10 +9,8 @@ const Contact = () => {
         <div className={styles.div}>
             <p className={styles.title}>Join the Chumbi Community</p>
             <div className={styles.join}>
-                <div>
-                    <button className={styles.discord}><img src={getImg('icon/discord.png')} alt="icon" style={{ paddingRight: '15px' }} />Join Discord</button>
-                    <button className={styles.telegram}><img src={getImg('icon/telegram.png')} alt="icon" />Join Telegram</button>
-                </div>
+                <button className={styles.discord}><img src={getImg('icon/discord.png')} alt="icon" style={{ paddingRight: '15px' }} />Join Discord</button>
+                <button className={styles.telegram}><img src={getImg('icon/telegram.png')} alt="icon" />Join Telegram</button>
             </div>
             <div className={styles.subscribe}>
                 <input className={styles.email} type={'email'} placeholder='Email' />

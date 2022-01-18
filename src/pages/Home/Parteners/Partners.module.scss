@@ -23,6 +23,14 @@
     justify-content: space-around;
     flex-wrap: wrap;
 
+    div {
+        width: 25%;
+        min-width: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     img {
         margin-bottom: 40px;
 
@@ -30,6 +38,23 @@
             transform-style: flat;
             transform: translate(2px, 1px);
             transition-duration: 0.5s;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .title {
+        font-size: 45px;
+    }
+
+    .container {
+        div {
+            min-width: 300px;
+
+            img {
+                width: 100%;
+            }
         }
     }
 }

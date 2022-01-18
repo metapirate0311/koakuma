@@ -3,6 +3,8 @@ import Carousel from "react-spring-3d-carousel";
 import { v4 as uuidv4 } from 'uuid';
 import { config } from "react-spring";
 
+import './Slider.css'
+import styles from './Media.module.scss';
 import { getImg } from "../../../utils/Helper";
 
 const Slider = () => {
@@ -48,7 +50,7 @@ const Slider = () => {
     });
 
     return (
-        <div style={{ width: "80%", height: "470px", margin: "0 auto" }}>
+        <div className={styles.carousel}>
             <Carousel
                 slides={slides}
                 goToSlide={state.goToSlide}
